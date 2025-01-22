@@ -36,7 +36,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "analogHomeopathicReady":
             MessageLookupByLibrary.simpleMessage("analog homeopathic ready"),
         "attention": MessageLookupByLibrary.simpleMessage(
-            "Attention: The sum of the shares must be 100%! Ok"),
+            "Attention: The sum of the shares must be 100% with and all fields are filled"),
         "back": MessageLookupByLibrary.simpleMessage("Back"),
         "cancel": MessageLookupByLibrary.simpleMessage("Cancel"),
         "delete": MessageLookupByLibrary.simpleMessage("Delete"),
@@ -59,7 +59,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "homeopathicg":
             MessageLookupByLibrary.simpleMessage("Analog Homeopathic* "),
         "illuminatingProcess": MessageLookupByLibrary.simpleMessage(
-            "Illumination process - please wait"),
+            "3. Illumination process - please wait"),
         "lightpower":
             MessageLookupByLibrary.simpleMessage("by the power of light: "),
         "neutralize": MessageLookupByLibrary.simpleMessage("Neutralize"),

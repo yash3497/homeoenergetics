@@ -200,10 +200,10 @@ class S {
     );
   }
 
-  /// `Attention: The sum of the shares must be 100%! Ok`
+  /// `Attention: The sum of the shares must be 100% with and all fields are filled`
   String get attention {
     return Intl.message(
-      'Attention: The sum of the shares must be 100%! Ok',
+      'Attention: The sum of the shares must be 100% with and all fields are filled',
       name: 'attention',
       desc: '',
       args: [],
@@ -230,10 +230,10 @@ class S {
     );
   }
 
-  /// `Illumination process - please wait`
+  /// `3. Illumination process - please wait`
   String get illuminatingProcess {
     return Intl.message(
-      'Illumination process - please wait',
+      '3. Illumination process - please wait',
       name: 'illuminatingProcess',
       desc: '',
       args: [],

@@ -2,8 +2,8 @@ import 'dart:async';
 
 import 'package:flutter/material.dart';
 import 'package:homeo_energetics/generated/l10n.dart';
-import 'package:homeo_energetics/screens/illumination_process_screen.dart';
-import 'package:homeo_energetics/screens/place_globules_screen.dart';
+import 'package:homeo_energetics/screens/combained_globules_screen.dart';
+// import 'package:homeo_energetics/screens/illumination_process_screen.dart';
 import 'package:homeo_energetics/screens/value_option_box_screen.dart';
 import 'package:homeo_energetics/utils/color_constants.dart';
 import 'package:homeo_energetics/widgets/custom_button.dart';
@@ -505,7 +505,7 @@ class _SelectAnalogScreenState extends State<SelectAnalogScreen> {
                           Navigator.push(
                             context,
                             MaterialPageRoute(
-                                builder: (context) => const PlaceGlobulesScreen(
+                                builder: (context) => const CombinedGlobulesScreen(
                                       isNeutralize: true,
                                     )),
                           );
@@ -556,7 +556,7 @@ class _SelectAnalogScreenState extends State<SelectAnalogScreen> {
                           Navigator.push(
                             context,
                             MaterialPageRoute(
-                              builder: (context) => PlaceGlobulesScreen(
+                              builder: (context) => CombinedGlobulesScreen(
                                 sequences: sequences,
                                 isNeutralize: false,
                               ),

@@ -34,7 +34,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "analogHomeopathicReady": MessageLookupByLibrary.simpleMessage(
             "Analoges Homöopathikum fertig"),
         "attention": MessageLookupByLibrary.simpleMessage(
-            "Achtung: Die Summe der Anteile muss 100% betragen! Ok"),
+            "Achtung: Die Summe der Anteile muss 100 % betragen und alle Felder müssen ausgefüllt sein."),
         "back": MessageLookupByLibrary.simpleMessage("Zurück"),
         "cancel": MessageLookupByLibrary.simpleMessage("Abbrechen"),
         "delete": MessageLookupByLibrary.simpleMessage("Löschen"),
@@ -57,7 +57,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "homeopathicg":
             MessageLookupByLibrary.simpleMessage("Analoge Homöopathikum* "),
         "illuminatingProcess": MessageLookupByLibrary.simpleMessage(
-            "Beleuchtungsprozess - bitte warten"),
+            "3. Beleuchtungsprozess - bitte warten"),
         "lightpower": MessageLookupByLibrary.simpleMessage(
             "durch die Kraft des Lichts: "),
         "neutralize": MessageLookupByLibrary.simpleMessage("Neutralisieren"),
